@@ -6,12 +6,14 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public string SaveToFileTextData(int x)
 	{
-		string outputFile = "../DataSprint5/OutPutFileTask0.txt";
+		string path = Path.Combine(Path.GetTempPath(), "OutPutFileTask0.txt");
 
 		double y = Math.Round(Math.Pow(x, 3) + 2 * Math.Pow(x, 2) + 5 * x + 4, 2);
 
-		File.WriteAllText(outputFile, y.ToString());
-		return outputFile;
+		File.WriteAllText(path, y.ToString());
+
+
+		return "C:/User/temp" + path;
 
 		throw new NotImplementedException();
 	}
