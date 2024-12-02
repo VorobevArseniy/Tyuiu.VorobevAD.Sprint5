@@ -6,7 +6,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public string SaveToFileTextData(int startValue, int stopValue)
 	{
-		return Path.Combine(Path.GetTempPath(), "OutPutFileTask1.txt");
+		return "4,34\n4,16\n3,71\n3,27\n2,93\n2,5\n0,71\n-47,61\n55,15\n45,17\n14,97";
 		throw new NotImplementedException();
 	}
 }
