@@ -12,3 +12,4 @@
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/obj/Debug/net8.0/refint/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.dll
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/obj/Debug/net8.0/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.pdb
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/obj/Debug/net8.0/ref/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.dll
+/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/obj/Debug/net8.0/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.sourcelink.json

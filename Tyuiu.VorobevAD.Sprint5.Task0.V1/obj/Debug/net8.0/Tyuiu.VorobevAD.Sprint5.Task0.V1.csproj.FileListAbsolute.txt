@@ -17,3 +17,4 @@
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/obj/Debug/net8.0/Tyuiu.VorobevAD.Sprint5.Task0.V1.pdb
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/obj/Debug/net8.0/Tyuiu.VorobevAD.Sprint5.Task0.V1.genruntimeconfig.cache
 /Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/obj/Debug/net8.0/ref/Tyuiu.VorobevAD.Sprint5.Task0.V1.dll
+/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/obj/Debug/net8.0/Tyuiu.VorobevAD.Sprint5.Task0.V1.sourcelink.json
