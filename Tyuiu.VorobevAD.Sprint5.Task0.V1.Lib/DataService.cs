@@ -13,7 +13,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 		File.WriteAllText(path, y.ToString());
 
 
-		return "C:/User/temp" + path;
+		return path;
 
 		throw new NotImplementedException();
 	}
