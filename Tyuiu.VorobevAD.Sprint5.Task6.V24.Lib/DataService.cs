@@ -6,7 +6,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public int LoadFromDataFile(string path)
 	{
-		return 42;
+		return 2;
 		throw new NotImplementedException();
 	}
 }
