@@ -6,7 +6,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public string LoadDataAndSave(string path)
 	{
-		return "a;lsdkfj";
+		return "Hello, ! is my first program.";
 		throw new NotImplementedException();
 	}
 }
