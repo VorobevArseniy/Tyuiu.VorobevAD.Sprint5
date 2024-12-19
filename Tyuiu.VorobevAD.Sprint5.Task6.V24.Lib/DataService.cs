@@ -6,7 +6,19 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public int LoadFromDataFile(string path)
 	{
-		return 2;
+		int sum = 0;
+
+		string str = File.ReadAllText(path);
+		string[] chisla = str.Split(", ");
+
+		for (int i = 0; i < chisla.Length; i++)
+		{
+			if (i == chisla.Length - 1) chisla[i] = chisla[i].Remove(chisla[i].Length - 1);
+			if (chisla[i].Length == 4) sum++;
+			Console.WriteLine(chisla[i]);
+		}
+
+		return sum;
 		throw new NotImplementedException();
 	}
 }
