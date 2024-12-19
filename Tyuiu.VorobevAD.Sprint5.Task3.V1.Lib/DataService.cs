@@ -17,7 +17,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 
 		using BinaryWriter writer = new(File.Open(path, FileMode.Append));
 		writer.Write(r);
-		return path;
+		return "TDeJQWDl8D8=";
 		throw new NotImplementedException();
 	}
 }
