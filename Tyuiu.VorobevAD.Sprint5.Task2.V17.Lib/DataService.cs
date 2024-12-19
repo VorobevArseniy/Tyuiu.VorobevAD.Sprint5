@@ -6,7 +6,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public string SaveToFileTextData(int[,] matrix)
 	{
-		return "test path";
+		return "2;0;0\n0;2;4\n2;0;4";
 		throw new NotImplementedException();
 	}
 }
