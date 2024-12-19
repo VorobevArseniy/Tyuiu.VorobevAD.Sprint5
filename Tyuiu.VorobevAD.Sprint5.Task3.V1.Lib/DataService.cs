@@ -14,7 +14,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 		bool fileExists = fileInfo.Exists;
 		if (fileExists) File.Delete(path);
 
-		double r = Math.Round((Math.Pow(x, 3) - 8) / 2 * x, 3);
+		double r = Math.Round((Math.Pow(x, 3) - 8) / 2 * Math.Pow(x, 2), 3);
 
 		using (BinaryWriter writer = new(File.Open(path, FileMode.Append)))
 		{
