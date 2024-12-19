@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib\Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib\Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -10,7 +10,5 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
- 
 
 </Project>

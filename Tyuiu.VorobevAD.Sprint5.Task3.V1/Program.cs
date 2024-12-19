@@ -1,12 +1,13 @@
-﻿using Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib;
+﻿using Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib;
 
-namespace Tyuiu.VorobevAD.Sprint5.Task0.V1;
+namespace Tyuiu.VorobevAD.Sprint5.Task3.V1;
 
 class Program
 {
     static void Main(string[] args)
     {
-        DataService obj = new();
-        obj.SaveToFileTextData(2);
+        DataService ds = new();
+        ds.SaveToFileTextData(3);
+        Console.WriteLine("Hello, World!");
     }
 }

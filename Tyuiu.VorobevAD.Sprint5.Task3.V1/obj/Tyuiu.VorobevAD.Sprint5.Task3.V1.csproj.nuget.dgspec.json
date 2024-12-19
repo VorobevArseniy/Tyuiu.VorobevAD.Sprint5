@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/Tyuiu.VorobevAD.Sprint5.Task0.V1.csproj": {}
+    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1/Tyuiu.VorobevAD.Sprint5.Task3.V1.csproj": {}
   },
   "projects": {
-    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj": {
+    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj",
-        "projectName": "Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib",
-        "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj",
+        "projectUniqueName": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj",
+        "projectName": "Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib",
+        "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj",
         "packagesPath": "/Users/master/.nuget/packages/",
-        "outputPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/obj/",
+        "outputPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/master/.nuget/NuGet/NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/Tyuiu.VorobevAD.Sprint5.Task0.V1.csproj": {
+    "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1/Tyuiu.VorobevAD.Sprint5.Task3.V1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/Tyuiu.VorobevAD.Sprint5.Task0.V1.csproj",
-        "projectName": "Tyuiu.VorobevAD.Sprint5.Task0.V1",
-        "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/Tyuiu.VorobevAD.Sprint5.Task0.V1.csproj",
+        "projectUniqueName": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1/Tyuiu.VorobevAD.Sprint5.Task3.V1.csproj",
+        "projectName": "Tyuiu.VorobevAD.Sprint5.Task3.V1",
+        "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1/Tyuiu.VorobevAD.Sprint5.Task3.V1.csproj",
         "packagesPath": "/Users/master/.nuget/packages/",
-        "outputPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1/obj/",
+        "outputPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/master/.nuget/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj": {
-                "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task0.V1.Lib.csproj"
+              "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj": {
+                "projectPath": "/Users/master/Documents/GitHub/Tyuiu.VorobevAD.Sprint5/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib/Tyuiu.VorobevAD.Sprint5.Task3.V1.Lib.csproj"
               }
             }
           }
