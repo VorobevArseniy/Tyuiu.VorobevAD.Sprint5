@@ -6,7 +6,16 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public double LoadFromDataFile(string path)
 	{
-		return -145.236;
+		double y;
+
+		string x = File.ReadAllText(path);
+		x = x.Replace('.', ',');
+		double temp = Convert.ToDouble(x);
+
+		if (temp == 0) y = -1;
+		else y = Math.Round((temp / (2 * temp) + Math.Sin(Math.Pow(temp, 2))), 3);
+
+		return y;
 		throw new NotImplementedException();
 	}
 }
