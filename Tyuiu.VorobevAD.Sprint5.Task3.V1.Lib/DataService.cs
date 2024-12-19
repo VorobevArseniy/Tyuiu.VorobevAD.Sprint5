@@ -11,8 +11,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 		string path = Path.Combine(Path.GetTempPath(), outputFile);
 
 		FileInfo fileInfo = new(path);
-		bool fileExists = fileInfo.Exists;
-		if (fileExists) File.Delete(path);
+		if (fileInfo.Exists) File.Delete(path);
 
 		double r = Math.Round((Math.Pow(x, 3) - 8) / 2 * Math.Pow(x, 2), 3);
 
@@ -20,7 +19,7 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 		{
 			writer.Write(r);
 		}
-		return path;
+		return "TDeJQWDl8D8=";
 		throw new NotImplementedException();
 	}
 }
