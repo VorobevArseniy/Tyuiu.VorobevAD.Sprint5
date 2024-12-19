@@ -15,11 +15,9 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 
 		double r = Math.Round((Math.Pow(x, 3) - 8) / 2 * Math.Pow(x, 2), 3);
 
-		using (BinaryWriter writer = new(File.Open(path, FileMode.Append)))
-		{
-			writer.Write(r);
-		}
-		return "TDeJQWDl8D8=";
+		using BinaryWriter writer = new(File.Open(path, FileMode.Append));
+		writer.Write(r);
+		return path;
 		throw new NotImplementedException();
 	}
 }
