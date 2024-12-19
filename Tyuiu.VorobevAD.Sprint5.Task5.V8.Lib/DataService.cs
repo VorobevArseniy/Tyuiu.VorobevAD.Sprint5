@@ -6,7 +6,20 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 {
 	public double LoadFromDataFile(string path)
 	{
-		return -3.36;
+		double sum = 0;
+
+		string str = File.ReadAllText(path);
+		string[] chisla = str.Split(' ');
+
+		for (int i = 0; i < chisla.Length; i++)
+		{
+			chisla[i] = chisla[i].Replace(".", ",");
+
+			double temp = Math.Round(Convert.ToDouble(chisla[i]), 3);
+			if (temp % 1 == 0) sum += temp;
+		}
+
+		return sum;
 		throw new NotImplementedException();
 	}
 }
