@@ -11,13 +11,16 @@ public class DataService : tyuiu.cources.programming.interfaces.Sprint5.ISprint5
 		string path = Path.Combine(Path.GetTempPath(), outputFile);
 
 		FileInfo fileInfo = new(path);
-		if (fileInfo.Exists) File.Delete(path);
+		bool fileExists = fileInfo.Exists;
+		if (fileExists) File.Delete(path);
 
-		double r = Math.Round((Math.Pow(x, 3) - 8) / 2 * Math.Pow(x, 2), 3);
+		double r = Math.Round((Math.Pow(x, 3) - 8) / (2 * Math.Pow(x, 2)), 3);
 
-		using BinaryWriter writer = new(File.Open(path, FileMode.Append));
-		writer.Write(r);
-		return "TDeJQWDl8D8=";
+		using (BinaryWriter writer = new(File.Open(path, FileMode.Append)))
+		{
+			writer.Write(r);
+		}
+		return path;
 		throw new NotImplementedException();
 	}
 }
